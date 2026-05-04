@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Mercato.Shared\Mercato.Shared.csproj" />
+    <ProjectReference Include="..\Modules\Catalog\Mercato.Modules.Catalog\Mercato.Modules.Catalog.csproj" />
+    <ProjectReference Include="..\Modules\Orders\Mercato.Modules.Orders\Mercato.Modules.Orders.csproj" />
+    <ProjectReference Include="..\Modules\Customers\Mercato.Modules.Customers\Mercato.Modules.Customers.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Mercato.Api/Mercato.Api.csproj" />
+    <Project Path="src/Mercato.Shared/Mercato.Shared.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Catalog/">
+    <Project Path="src/Modules/Catalog/Mercato.Modules.Catalog/Mercato.Modules.Catalog.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Customers/">
+    <Project Path="src/Modules/Customers/Mercato.Modules.Customers/Mercato.Modules.Customers.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/Orders/">
+    <Project Path="src/Modules/Orders/Mercato.Modules.Orders/Mercato.Modules.Orders.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Mercato.Modules.Catalog.Tests/Mercato.Modules.Catalog.Tests.csproj" />
+    <Project Path="tests/Mercato.Modules.Customers.Tests/Mercato.Modules.Customers.Tests.csproj" />
+    <Project Path="tests/Mercato.Modules.Orders.Tests/Mercato.Modules.Orders.Tests.csproj" />
+  </Folder>
+</Solution>
