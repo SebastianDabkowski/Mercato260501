@@ -97,7 +97,6 @@ Out of scope:
 - Validation and error handling
 - Email notifications
 - Authentication and authorization
-- Input validation
 - Basic analytics and logging
 
 ## Assumptions
